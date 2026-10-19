@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="tmdb-busqueda" content="width=device-width, initial-scale=1.0">
+    <title>The Movie Data Base - Buscador</title>
+    <link rel="icon" href="../img/favicon.png">
 </head>
 <body>
     <header>
-        <img src="../img/tmdb.png">
+        <img src="../img/tmdb.png" alt="TheMovieDataBase">
         <nav>
             <ul>
                 <li><a href="buscador.html">Buscador</a></li>
@@ -19,23 +20,26 @@
         <section>
             <h1>BUSCAR una pel·lícula</h1>
             <p>Milions de títols, un sol cercador.</p>
-            <input type="text" placeholder="Cerca una pel·lícula, per exemple <<Dune>>...">
-            <button type="submit">Cercar</button>
+            <form method="get" action="https://www.themoviedb.org/search">
+                <input type="search" name="query" id="query" placeholder="Cerca una pel·lícula, per exemple <<Dune>>..." required>
+                <button type="submit">Cercar</button>
+            </form>
+            
         </section>
         <section>
             <h2>Resultats</h2>
             <article >
-                <img src="../img/dune.png">
+                <img src="../img/dune.png" alt="Dune">
                 <h3>Dune: Part Two</h3>
                 <p>2024</p>
             </article>
             <article>
-                <img src="../img/lftr.png">
+                <img src="../img/lftr.png"  alt="Señor de los anillos">
                 <h3>The Lord of the Rings: The Two Towers</h3>
                 <p>2002</p>
             </article>
             <article>
-                <img src="../img/spiderman.png">
+                <img src="../img/spiderman.png"  alt="Spiderman">
                 <h3>Spider-Man: Brand New Day</h3>
                 <p>2026</p>
             </article>
