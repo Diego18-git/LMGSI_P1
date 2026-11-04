@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    
+}
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+*{
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    padding: 5px 30px 5px 30px;
+}
+header, .targeta, input{
+    background-color: #0b3a5e;
+}
+nav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;   
+}
+nav img{
+    width: 250px;
+    height: auto;
+}
+nav ul{ 
+    display: flex; 
+    gap: 32px; 
+    list-style: none;
+}
+nav ul li a, input{
+    text-decoration: none;
+    color: #b2bdc6;
+}
+nav ul li a:hover{
+    color: #01b4e4;
+}
+.buscador{
+    text-align: center;
+    padding: 50px 80px 80px 80px;
+    background-color: #02233c;
+}
+.buscador h1{
+    font-size: 3rem;
+    color: white;
+}
+.buscador p {
+    color: #c2ccd5;
+}
+.buscador form {
+    text-align: center;
+}
+.buscador form input{
+    width: 70%;
+    border: none;
+    padding: 15px 0px 15px 10px;
+    margin: 0px;
+    border-radius: 5px 0px 0px 5px;
+    margin: 0px -6px 0px 0px;
+}
+.buscador form button{
+    border: none;
+    width: 15%;
+    padding: 15px 10px 15px 10px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #01b4e4;
+}
+.pelicules {
+    margin: 80px 40px 80px 40px;
+}
+.resultats { 
+    display: flex; 
+    gap: 24px; 
+    
+}
+.targeta { 
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 0px black;
+}
+.targeta img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.targeta h3{
+    color: white;
+    margin: 10px 0px 0px 10px;
+}
+.targeta p{
+    color: rgb(4, 210, 4);
+    margin: 10px 0px 10px 10px;
+}
+footer{
+    background-color: #02233c;
+    padding: 1px 10px 1px 40px;
+    color: #b2bdc6;
+}

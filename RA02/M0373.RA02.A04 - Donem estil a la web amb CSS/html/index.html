@@ -15,8 +15,8 @@
 </head>
 <body>
     <header>
-        <img src="../img/tmdb.png" alt="TheMovieDataBase">
         <nav>
+            <img src="../img/tmdb.png" alt="TheMovieDataBase">
             <ul>
                 <li><a href="#">Buscador</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
@@ -24,32 +24,33 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="buscador">
             <h1>BUSCAR UNA PEL·LÍCULA</h1>
             <p>Milions de títols, un sol cercador.</p>
             <form method="get" action="https://www.themoviedb.org/search">
                 <input type="search" name="query" id="query" placeholder="Cerca una pel·lícula, per exemple <<Dune>>..." required>
                 <button type="submit">Cercar</button>
             </form>
-            
         </section>
-        <section>
+        <section class="pelicules">
             <h2>Resultats</h2>
-            <article >
-                <img src="../img/dune.png" alt="Dune">
-                <h3>Dune: Part Two</h3>
-                <p>2024</p>
-            </article>
-            <article>
-                <img src="../img/lftr.png"  alt="Señor de los anillos">
-                <h3>The Lord of the Rings: The Two Towers</h3>
-                <p>2002</p>
-            </article>
-            <article>
-                <img src="../img/spiderman.png"  alt="Spiderman">
-                <h3>Spider-Man: Brand New Day</h3>
-                <p>2026</p>
-            </article>
+            <div class="resultats">
+                <article class="targeta">
+                    <img src="../img/dune.png" alt="Dune">
+                    <h3>Dune: Part Two</h3>
+                    <p>2024</p>
+                </article>
+                <article class="targeta">
+                    <img src="../img/lftr.png"  alt="Señor de los anillos">
+                    <h3>The Lord of the Rings: The Two Towers</h3>
+                    <p>2002</p>
+                </article>
+                <article class="targeta">
+                    <img src="../img/spiderman.png"  alt="Spiderman">
+                    <h3>Spider-Man: Brand New Day</h3>
+                    <p>2026</p>
+                </article>
+            </div>
         </section>
     </main>
     <footer>
