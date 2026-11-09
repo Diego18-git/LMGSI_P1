@@ -24,39 +24,43 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="banner">
             <h1>CONTACTA AMB NOSALTRES</h1>
             <p>Tens algun dobte o suggeriment? Escriu-nos.</p>
         </section>
-        <section>
-            <div>
-                <div>
+        <section class="contenido">
+            <div class="usuario">
+                <div class="imagen">
                     <img src="../img/image.png" style="max-width: 100px;" alt="Icono Usuario">
                 </div>
-                <div>
+                <div class="texto">
                     <h2>Diego Castillo Urquiza</h2>
-                    <p>Alumne/a - Desenvolupament web</p>
+                    <p class="identificador">Alumne/a - Desenvolupament web</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia et iusto soluta maiores consectetur quisquam tenetur, repudiandae inventore nemo iste dolores nostrum recusandae, minima deleniti vitae earum quasi debitis numquam.</p>
                 </div>
             </div>
-            <div>
+            <div class="formulario">
+                <h3>Envia'ns un missatge</h3>
                 <form method="post" action="mailto:example@google.com">
                     <label for="nom" id="labnom">Nom i cognoms</label>
+                    <br>
                     <input type="text" id="nom" name="nom" placeholder="El teu nom complet" required>
                     <br>
 
                     <label for="email" id="labemail">Correu electrònic</label>
+                    <br>
                     <input type="email" name="email" id="email" placeholder="nom@example.cat" required>
                     <br>
 
                     <label for="assumpte" id="labassumpte">Assumpte</label>
+                    <br>
                     <input type="text" name="assumpte" id="assumpte" placeholder="Sobre què ens vols escriure?" required>
                     <br>
 
                     <label for="missatge" id="labmissatge">Missatge</label>
+                    <br>
                     <textarea name="missatge" id="missatge" rows="4" placeholder="Escriu aquí el teu misstage..."></textarea>
                     <br>
-
                     <button type="submit">Enviar</button>
                 </form>
             </div>
