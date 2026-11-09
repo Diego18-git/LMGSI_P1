@@ -28,7 +28,7 @@ nav ul{
     gap: 32px; 
     list-style: none;
 }
-nav ul li a, input{
+nav ul li a, input::placeholder{
     text-decoration: none;
     color: #b2bdc6;
 }
